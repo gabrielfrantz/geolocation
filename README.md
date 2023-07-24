@@ -8,6 +8,8 @@ Banco de dados: Firebase para vinculaçãod e autenticação com o  Google
 
 Prototipagem das telas: Figma
 
+
+
 Tela de login
 
 ![image](https://github.com/gabrielfrantz/geolocation/assets/33354703/e6305648-5a84-4cd9-862c-ec4303c3a089)
