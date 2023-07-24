@@ -4,7 +4,7 @@ Autores: Faiza Schoeninger, Gabriel Frantz, Rafael Siebeneichler e Tiago Portalu
 
 Linguagens utilizadas: Kotlin para desenvolvimento mobile para dispositivos Android
 
-Banco de dados: Firebase para vinculaçãod e autenticação com o  Google
+Banco de dados: Firebase para vinculação e autenticação com o Google
 
 Prototipagem das telas: Figma
 
