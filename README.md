@@ -1,8 +1,11 @@
 <h1 align="center">Sistema de monitoramento e análise de exercícios desenvolvido durante uma disciplina da faculdade em grupo</h1>
 
 Autores: Faiza Schoeninger, Gabriel Frantz, Rafael Siebeneichler e Tiago Portaluppi
+
 Linguagens utilizadas: Kotlin para desenvolvimento mobile para dispositivos Android
+
 Banco de dados: Firebase para vinculaçãod e autenticação com o  Google
+
 Prototipagem das telas: Figma
 
 Tela de login
