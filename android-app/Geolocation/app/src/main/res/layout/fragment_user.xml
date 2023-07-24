@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:shape="ring"
+        app:cardCornerRadius="65dp">
+
+        <ImageView
+            android:id="@+id/profile_user_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@string/image_user_information"
+            android:shape="ring"
+            app:srcCompat="@drawable/icon_user_default" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/customize_buttom"
+        android:inputType="textCapSentences"
+        android:text="@string/btn_update_profile"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
+
+
+

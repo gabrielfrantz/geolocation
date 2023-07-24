@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/frame_item_imc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_imc_user"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Valor do seu IMC: "
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_imc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_border"
+                android:layout_marginLeft="10dp"
+                android:ems="10" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="174dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/customize_buttom"
+            android:inputType="textCapSentences"
+            android:text="@string/text_back"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="150dp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+                <TableRow android:id="@+id/tr_1">
+
+                    <TextView
+                        android:id="@+id/tv_imc"
+                        android:layout_width="0dp"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:text="IMC"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite" />
+
+                    <TextView
+                        android:id="@+id/tv_classification"
+                        android:layout_width="0dp"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:text="Classificação"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite" />
+
+                    <TextView
+                        android:id="@+id/tv_grau"
+                        android:layout_width="0dp"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:baselineAligned="false"
+                        android:text="Grau"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite" />
+
+                </TableRow>
+
+                <TableRow android:id="@+id/tr_2">
+
+                    <TextView
+                        android:id="@+id/tv_imc2"
+                        android:layout_width="0dp"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Menor que 18,5"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_classification2"
+                        android:layout_width="0dp"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Magreza"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_grau2"
+                        android:layout_width="0dp"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:baselineAligned="false"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                </TableRow>
+
+                <TableRow android:id="@+id/tr_3">
+
+                    <TextView
+                        android:id="@+id/tv_imc3"
+                        android:layout_width="0dp"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Entre 18,5 e 24,9"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_classification3"
+                        android:layout_width="0dp"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Normal"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_grau3"
+                        android:layout_width="0dp"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:baselineAligned="false"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                </TableRow>
+
+                <TableRow android:id="@+id/tr_4">
+
+                    <TextView
+                        android:id="@+id/tv_imc4"
+                        android:layout_width="0dp"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Entre 25,0 e 29,9"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_classification4"
+                        android:layout_width="0dp"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Sobrepeso"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_grau4"
+                        android:layout_width="0dp"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:baselineAligned="false"
+                        android:text="|"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                </TableRow>
+
+                <TableRow android:id="@+id/tr_5">
+
+                    <TextView
+                        android:id="@+id/tv_imc5"
+                        android:layout_width="0dp"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Entre 30,0 e  39,9"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_classification5"
+                        android:layout_width="0dp"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Obesidade"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_grau5"
+                        android:layout_width="0dp"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:baselineAligned="false"
+                        android:text="||"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                </TableRow>
+
+                <TableRow android:id="@+id/tr_6">
+
+                    <TextView
+                        android:id="@+id/tv_imc6"
+                        android:layout_width="0dp"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Maior que 40,0"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_classification6"
+                        android:layout_width="0dp"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:text="Obesidade grave"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/tv_grau6"
+                        android:layout_width="0dp"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_border"
+                        android:baselineAligned="false"
+                        android:text="|||"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack" />
+
+                </TableRow>
+
+            </TableLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

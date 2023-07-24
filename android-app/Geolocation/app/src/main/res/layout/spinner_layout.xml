@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+        <ImageView
+            android:id="@+id/image_spinner"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:contentDescription="@string/content_image_cycling"
+            android:src="@drawable/icon_cycling" />
+
+        <TextView
+            android:id="@+id/tv_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/text_cycling"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+</LinearLayout>

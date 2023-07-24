@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/infofo"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/frame_mapbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:bottomLeftRadius="10dp"
+                    android:bottomRightRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp">
+
+                    <com.mapbox.mapboxsdk.maps.MapView
+                        android:id="@+id/mapView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:bottomLeftRadius="10dp"
+                        android:bottomRightRadius="10dp"
+                        android:topLeftRadius="10dp"
+                        android:topRightRadius="10dp"
+                        app:mapbox_cameraZoom="13" />
+
+                </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrayLight"
+            android:focusable="false" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorGrayLight1"
+            android:dropDownWidth="fill_parent"
+            android:spinnerMode="dropdown" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrayLight"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:layout_width="174dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/customize_buttom"
+        android:inputType="textCapSentences"
+        android:text="@string/text_start"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

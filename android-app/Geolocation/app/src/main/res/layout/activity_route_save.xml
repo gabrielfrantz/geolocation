@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/frame_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <ImageView
+            android:id="@+id/image_current_route"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="10sp"
+            android:contentDescription="@string/content_image_walking"
+            android:src="@drawable/icon_walking" />
+
+        <TextView
+            android:id="@+id/tv_current_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/text_walking"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_start_date_current_route"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/text_current_date"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frame_informations"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="14sp"
+        android:layout_weight="15"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="67dp">
+
+        <LinearLayout
+            android:id="@+id/frame_item_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_label_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/text_distance"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_value_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/text_default_elapsed_distance"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/frame_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_label_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/text_time"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_value_time"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/text_default_elapsed_time"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/frame_item_average_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_label_average_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/text_average_speed"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_value_average_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/text_default_elapsed_average_speed"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp">
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:bottomLeftRadius="10dp"
+            android:bottomRightRadius="10dp"
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"
+            app:mapbox_cameraZoom="13" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_logo_text_detalhes"
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/red_marker" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/image_text_detalhes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Detalhes"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_resumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Resuma sua atividade:"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/tv_edit_resumo"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/my_border"
+        android:ems="10"
+        android:fontFamily="@font/poppins_semibold"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/tv_grau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Avalie seu grau de esforço durante a atividade:"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp" />
+
+    <SeekBar
+        android:id="@+id/sb_grau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:max="10"
+        android:maxHeight="3dp"
+        android:minHeight="3dp"
+        android:progress="3"
+        android:progressTint="@color/colorPrimary"
+        android:thumbTint="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_logo_text_privacidade"
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/red_marker" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_privacidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Privacidade"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frame_item_route_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_publica_atividade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_light"
+            android:text="Tornar essa atividade pública: "
+            android:textColor="@color/colorBlack" />
+
+        <Switch
+            android:id="@+id/sw_publica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:thumbTint="@color/colorPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frame_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/customize_buttom"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="textCapSentences"
+            android:text="Descartar"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/customize_buttom"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="textCapSentences"
+            android:text="Salvar"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

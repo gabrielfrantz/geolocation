@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/frame_mapbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:bottomLeftRadius="10dp"
+            android:bottomRightRadius="10dp"
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp">
+
+            <com.mapbox.mapboxsdk.maps.MapView
+                android:id="@+id/mapViewLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"
+                app:mapbox_cameraZoom="13" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_activated_users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/component_user_information" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

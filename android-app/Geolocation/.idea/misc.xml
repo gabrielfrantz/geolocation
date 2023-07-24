@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.325" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/customize_buttom.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/customize_buttom_grey.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/ic__12e86948f370a449f59a5281c8b1330.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/ic__message.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/ic__share.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/ic_icons8_bala_o_de_fala_com_pontos_96_1.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/ic_icons8_enviar_e_mail_96_1.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/icon_like.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/icon_warning.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/my_border.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/drawable/my_border_2.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_imc.xml" value="0.2859375" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_login.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_main.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_main_test.xml" value="0.2859375" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_newlogin.xml" value="0.2859375" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_presentation.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_register.xml" value="0.2859375" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_route_detail.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_route_save.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_splash.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_user.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_user_profile.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/component_no_information.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/component_route.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/component_user_information.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_current_route.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_friends.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_location.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_profile.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_record.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_route.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_user.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/layout/spinner_layout.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/menu/new_route_save_menu.xml" value="0.3546875" />
+        <entry key="..\:/Users/GabrielFrantz/Documents/geolocation/android-app/Geolocation/app/src/main/res/menu/route_save_menu.xml" value="0.3546875" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_newlogin.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_presentation.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_register.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_route_detail.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_route_save.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_splash.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_user.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_user_profile.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/component_no_information.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/component_route.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/component_user_information.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_current_route.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_friends.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_location.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_profile.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_record.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_route.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_user.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_user_profile.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Rafa_/OneDrive/Documentos/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/spinner_layout.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_route_detail.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_route_save.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_splash.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_user.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/activity_user_profile.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_current_route.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_friends.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_location.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_profile.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_record.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_route.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_user.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/fragment_user_profile.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/layout/spinner_layout.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafaelsiebeneichler/Documents/GitHub/geolocation/android-app/Geolocation/app/src/main/res/menu/route_save_menu.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/fragment_user.xml" value="0.16770833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

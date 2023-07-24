@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logo_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@id/principal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_logo"
+                android:layout_width="49dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/icon_geolocation" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView_text_logo"
+                    android:layout_width="209dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/text_geolocation" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_text_welcome"
+                android:layout_width="15dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/red_marker" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_welcome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/bem_vindo"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="E-mail:"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorGrayLight"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Senha:"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorGrayLight"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:inputType="textPassword"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_text_change_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="95dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Esqueceu sua senha?"
+                android:textAlignment="center"
+                android:textColor="@color/colorGrayLight"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_text_change_password_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Redefina aqui!"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_autentication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customize_buttom"
+            android:inputType="textCapSentences"
+            android:text="Autenticar"
+            android:textColor="#FFFFFF" />
+
+        <com.shobhitpuri.custombuttons.GoogleSignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Autenticar com Google"
+            app:isDarkTheme="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_text_new_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Ainda não possui cadastro?"
+                android:textAlignment="center"
+                android:textColor="@color/colorGrayLight"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_text_new_register_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Registre-se aqui!"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
